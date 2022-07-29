@@ -1,0 +1,95 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+html,body {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    font-family: arial;
+}
+.page-header{
+    padding-right: 10px;
+    padding-top: 20px;
+    text-align: right;
+}
+.page-header nav a{
+    font-size: 13px;
+    font-weight: 700;
+    color: #333;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.page-header nav a:last-child{
+   display: inline-block;
+   height: 23px;
+   width: 60px;
+   background: #38f;
+   color: #fff;
+   text-decoration: none;
+   text-align: center;
+   line-height: 23px;
+}
+.page-mainer{
+    flex: 1;
+    text-align: center;
+    margin-top: 100px;
+}
+.page-mainer .logo-contaienr img{
+    width: 270px;
+    height: 130px;
+    margin-bottom: 22px;
+}
+.form-contaienr form{
+    display: flex;
+    justify-content: center;
+}
+.form-contaienr .form-search{
+    display: inline-block;
+    width: 550px;
+    height:40;
+    border: 1px solid #b6b6b6;
+    border-right: 0;
+    outline: none;
+    padding-left:10px;
+    border: 1px solid #3385ff;
+}
+.form-contaienr .submit-btn{
+    width: 100px;
+    height: 35px;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    background: #3385ff;
+    border: 1px solid #0368fe;
+    outline:none;
+    cursor: pointer;
+}
+.submit-btn:hover{
+    background-color: #0368fe;
+}
+.form-contaienr .submit-btn:hover{
+    opacity: 1;
+}
+.page-footer{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.page-footer .footer-info{
+    margin-top: 15px;
+    color:#999;
+    text-decoration: none;
+}
+.page-footer .footer-info a{
+     color: #999;
+     margin-right: 15px;
+     text-decoration: none;
+}
+.page-footer .footer-info a:last-child{
+    margin-right: 0;
+}
